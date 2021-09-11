@@ -8,13 +8,13 @@ const Navbar = ({ children, ...restProps }) => {
 
 Navbar.Wrapper = ({ children, ...restProps }) => (<Wrapper { ...restProps }> { children } </Wrapper>)
 
-Navbar.NavMenu = ({ children, ...restProps }) => (<NavMenu { ...restProps }> { children } </NavMenu>)
+Navbar.Menu = ({ children, ...restProps }) => (<NavMenu { ...restProps }> { children } </NavMenu>)
 
-Navbar.NavItems = ({ children, ...restProps }) => (<NavItems { ...restProps }> { children } </NavItems>)
+Navbar.Items = ({ children, ...restProps }) => (<NavItems { ...restProps }> { children } </NavItems>)
 
-Navbar.NavLinks = ({ children, ...restProps }) => (<NavLinks { ...restProps }> { children } </NavLinks>)
+Navbar.Links = ({ children, ...restProps }) => (<NavLinks { ...restProps }> { children } </NavLinks>)
 
-Navbar.NavLogo = ({ children, ...restProps }) => (<NavLogo { ...restProps }> { children } </NavLogo>)
+Navbar.Logo = ({ children, ...restProps }) => (<NavLogo { ...restProps }> { children } </NavLogo>)
 
 
 
