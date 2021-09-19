@@ -1,41 +1,37 @@
 export const MenuItems = [
     {
         title: "Home",
-        url: "",
+        url: "/home",
     },
     {
         title: "Services",
-        url: "",
+        url: "/services",
     },
     {
-        title: "Contact Up",
-        url: "",
+        title: "Contact Us",
+        url: "/contact-us",
     },
     {
         title: "Products",
-        url: "",
-    },
-    {
-        title: "Sign Up",
-        url: "",
+        url: "/products",
     }
 ]
 
 export const SubMenus = [
     {
         title: "Marketing",
-        url: "",
+        url: "/marketing",
     },
     {
         title: "Consulting",
-        url: ""
+        url: "/consulting"
     },
     {
         title: "Design",
-        url: ""
+        url: "/design"
     },
     {
         title: "Development",
-        url: ""
+        url: "/development"
     }
 ]

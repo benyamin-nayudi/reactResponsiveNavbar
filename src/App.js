@@ -1,6 +1,5 @@
 import NavbarContainer from "./components/navbar"
 
-
 const App = () => {
     return (
         <>
