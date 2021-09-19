@@ -20,5 +20,6 @@ Navbar.Button = ({ children, ...restProps }) => (<Button { ...restProps }> { chi
 
 Navbar.Arrow = ({ children, ...restProps }) => (<Arrow className="fas fa-sort-down"> </Arrow>)
 
+Navbar.SubMenu = ({ children, ...restProps })=>(<subMenu></subMenu>)
 
 export default Navbar

@@ -45,8 +45,22 @@ export const NavLinks = styled.a`
         
     }
 
+    position: relative;
     
     
+`
+export const Arrow = styled.i`
+/* font-size: 20px; */
+position: absolute;
+ top: 5px ;
+ right: 5px;
+
+`
+
+export const subMenu = styled.li`
+
+
+
 `
 
 export const NavLogo = styled.h1`
@@ -67,8 +81,3 @@ padding: 10px 15px;
 
 `
 
-export const Arrow = styled.i`
-/* font-size: 20px; */
-vertical-align: top;
-
-`

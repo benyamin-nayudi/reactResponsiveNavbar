@@ -1,6 +1,6 @@
 import NavButton from "../Button/Button";
 import Navbar from "./NavContainer";
-
+import SubMenu from "./SubMenu";
 const NavbarContainer = () => {
     return (
         <Navbar>
@@ -22,7 +22,9 @@ const NavbarContainer = () => {
                         </Navbar.Items>
 
                         <Navbar.Items key="2">
-                            <Navbar.Links href="#">Services <Navbar.Arrow /></Navbar.Links>
+                            <Navbar.Links className="serv" href="#">Services <Navbar.Arrow /></Navbar.Links>
+                            <SubMenu />
+
                         </Navbar.Items>
 
                         <Navbar.Items key="3">
