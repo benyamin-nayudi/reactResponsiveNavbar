@@ -8,9 +8,10 @@ padding: 0 ;
 margin: 0;
 top: 51px;
 width: 180px;
-display: flex;
+
 flex-direction: column;
-justify-content: center
+justify-content: center;
+display: ${props => console.log(props)}
 
 `
 export const SubMenuItems = styled.li`
@@ -21,4 +22,8 @@ export const SubMenuItems = styled.li`
     &:hover{
         background-color: red;
     }
+
+    margin: ${props => console.log(props)}
+
+
 `

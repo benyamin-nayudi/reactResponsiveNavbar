@@ -17,7 +17,7 @@ const NavbarContainer = () => {
                             <Navbar.Links href="#">
 
                                 <Navbar.Services>Services
-                                    <SubMenuContainer />
+                                    <SubMenuContainer onMouse={ false }></SubMenuContainer>
                                 </Navbar.Services>
                                 <Navbar.Arrow />
 
