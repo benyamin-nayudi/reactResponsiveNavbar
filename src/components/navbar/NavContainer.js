@@ -1,4 +1,4 @@
-import { Arrow, Button, Nav, NavItems, NavLinks, NavLogo, NavMenu, Wrapper } from "./StyledNavbar"
+import { Arrow, Button, Nav, NavItems, NavLinks, NavLogo, NavMenu, Services, Wrapper } from "./StyledNavbar"
 const Navbar = ({ children, ...restProps }) => {
     return (
         <Nav { ...restProps } >{ children }</Nav>
@@ -20,6 +20,8 @@ Navbar.Button = ({ children, ...restProps }) => (<Button { ...restProps }> { chi
 
 Navbar.Arrow = ({ children, ...restProps }) => (<Arrow className="fas fa-sort-down"> </Arrow>)
 
-Navbar.SubMenu = ({ children, ...restProps })=>(<subMenu></subMenu>)
+
+Navbar.Services = ({ children, ...restProps }) => (<Services { ...restProps } >{ children } </Services>)
+
 
 export default Navbar

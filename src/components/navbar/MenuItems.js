@@ -17,7 +17,7 @@ export const MenuItems = [
     }
 ]
 
-export const SubMenuItems = [
+export const SubMenuData = [
     {
         title: "Marketing",
         url: "/marketing",

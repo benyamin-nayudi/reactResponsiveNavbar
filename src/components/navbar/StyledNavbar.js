@@ -57,11 +57,11 @@ position: absolute;
 
 `
 
-export const subMenu = styled.li`
-
-
+export const Services = styled.span`
+position: relative
 
 `
+
 
 export const NavLogo = styled.h1`
     font-size: 2rem;
