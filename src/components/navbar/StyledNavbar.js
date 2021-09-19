@@ -44,6 +44,8 @@ export const NavLinks = styled.a`
         background-color: blue;
         
     }
+
+    
     
 `
 
@@ -62,5 +64,11 @@ export const Button = styled.button`
 margin: 0 20px;
 justify-self: flex-end;
 padding: 10px 15px;
+
+`
+
+export const Arrow = styled.i`
+/* font-size: 20px; */
+vertical-align: top;
 
 `

@@ -22,7 +22,7 @@ const NavbarContainer = () => {
                         </Navbar.Items>
 
                         <Navbar.Items key="2">
-                            <Navbar.Links href="#">Services</Navbar.Links>
+                            <Navbar.Links href="#">Services <Navbar.Arrow /></Navbar.Links>
                         </Navbar.Items>
 
                         <Navbar.Items key="3">
