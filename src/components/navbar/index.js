@@ -1,4 +1,5 @@
 import NavButton from "../Button/Button";
+import { MenuItems } from "./MenuItems";
 import Navbar from "./NavContainer";
 import SubMenuContainer from "./subMenu/SubMenu";
 const NavbarContainer = () => {
@@ -9,7 +10,7 @@ const NavbarContainer = () => {
 
                 <Navbar.Menu>
                     <Navbar.Menu>
-                        <Navbar.Items key="1">
+                        {/* <Navbar.Items key="1">
                             <Navbar.Links href="#">Home</Navbar.Links>
                         </Navbar.Items>
 
@@ -17,7 +18,7 @@ const NavbarContainer = () => {
                             <Navbar.Links href="#">
 
                                 <Navbar.Services>Services
-                                    <SubMenuContainer onMouse={ false }></SubMenuContainer>
+                                     <SubMenuContainer onMouse={ false }></SubMenuContainer> 
                                 </Navbar.Services>
                                 <Navbar.Arrow />
 
@@ -32,7 +33,26 @@ const NavbarContainer = () => {
 
                         <Navbar.Items key="4">
                             <Navbar.Links href="#">Products</Navbar.Links>
-                        </Navbar.Items>
+                        </Navbar.Items> */}
+
+                        { MenuItems.map((item, index) => {
+
+                            if (item.title === "Services")
+                                return (
+                                    <Navbar.Items key="2">
+                                        <Navbar.Links href="#">
+                                            <Navbar.Services>Services
+                                                <SubMenuContainer onMouse={ false }></SubMenuContainer>
+                                            </Navbar.Services>
+                                            <Navbar.Arrow />
+                                        </Navbar.Links>
+                                    </Navbar.Items>
+                                )
+                            return (
+                                <Navbar.Items key={ index }>
+                                    <Navbar.Links href={ item.url }>{ item.title }</Navbar.Links>
+                                </Navbar.Items>)
+                        }) }
 
                     </Navbar.Menu>
                 </Navbar.Menu>

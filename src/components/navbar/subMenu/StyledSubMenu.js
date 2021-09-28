@@ -23,7 +23,7 @@ export const SubMenuItems = styled.li`
         background-color: red;
     }
 
-    margin: ${props => console.log(props)}
+    /* margin: ${props => console.log(props)} */
 
 
 `

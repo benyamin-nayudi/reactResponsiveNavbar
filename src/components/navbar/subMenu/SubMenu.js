@@ -7,7 +7,7 @@ export default function SubMenuContainer({ children, onMouse, ...restProps }) {
         <SubMenu>
             { SubMenuData.map((item, index) => {
                 return (
-                    <SubMenuItems key={ index } onMousee={ onMouse }  >{ item.title } { onMouse }                  </SubMenuItems>
+                    <SubMenuItems key={ index } onMousee={ onMouse }  >{ item.title } { onMouse } </SubMenuItems>
 
                 )
             }) }
