@@ -2,16 +2,16 @@ import { SubMenuData } from "../MenuItems"
 import { SubMenu, SubMenuItems } from "./StyledSubMenu"
 
 
-export default function SubMenuContainer({ children, onMouse, ...restProps }) {
+export default function SubMenuContainer(props) {
     return (
-        <SubMenu>
+        <SubMenu { ...props }>
+
             { SubMenuData.map((item, index) => {
                 return (
-                    <SubMenuItems key={ index } onMousee={ onMouse }  >{ item.title } { onMouse } </SubMenuItems>
-
+                    <SubMenuItems key={ index }  >{ item.title }</SubMenuItems>
                 )
             }) }
-            { console.log(2) }
+
         </SubMenu>
     )
 }

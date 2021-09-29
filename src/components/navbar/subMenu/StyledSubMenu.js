@@ -11,7 +11,9 @@ width: 180px;
 
 flex-direction: column;
 justify-content: center;
-display: ${props => console.log(props)}
+
+
+display:${props => props.jasem ? "flex" : "none"}
 
 `
 export const SubMenuItems = styled.li`
@@ -22,8 +24,8 @@ export const SubMenuItems = styled.li`
     &:hover{
         background-color: red;
     }
-
-    /* margin: ${props => console.log(props)} */
+    
+    
 
 
 `
