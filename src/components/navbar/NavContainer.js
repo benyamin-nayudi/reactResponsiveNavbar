@@ -1,4 +1,4 @@
-import { Arrow, Button, Nav, NavItems, NavLinks, NavLogo, NavMenu, Services, Wrapper } from "./StyledNavbar"
+import { Arrow, Button, Nav, NavItems, NavLinks, NavLogo, NavMenu, NavMenuSidebar, Services, Wrapper } from "./StyledNavbar"
 const Navbar = ({ children, ...restProps }) => {
     return (
         <Nav { ...restProps } >{ children }</Nav>
@@ -9,6 +9,8 @@ const Navbar = ({ children, ...restProps }) => {
 Navbar.Wrapper = ({ children, ...restProps }) => (<Wrapper { ...restProps }> { children } </Wrapper>)
 
 Navbar.Menu = ({ children, ...restProps }) => (<NavMenu { ...restProps }> { children } </NavMenu>)
+
+Navbar.MenuSidebar = ({ children, ...restProps }) => (<NavMenuSidebar { ...restProps }> { children } </NavMenuSidebar>)
 
 Navbar.Items = ({ children, ...restProps }) => (<NavItems { ...restProps }> { children } </NavItems>)
 

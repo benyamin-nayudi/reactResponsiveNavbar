@@ -11,6 +11,9 @@ export const Button = styled.button`
     &:hover{
 
     }
+    @media screen and (max-width: 960px){
+    display: none
+}
 `
 
 
