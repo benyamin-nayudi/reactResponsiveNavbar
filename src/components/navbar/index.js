@@ -22,8 +22,8 @@ const NavbarContainer = () => {
                                 return (
                                     <Navbar.Items key={ index }>
                                         <Navbar.Links href="#" >
-                                            <Navbar.Services onMouseEnter={ mouseHandler } onMouseOut={ mouseHandler }>Services
-                                                <SubMenuContainer jasem={ jasem } ></SubMenuContainer>
+                                            <Navbar.Services >Services
+                                                <SubMenuContainer className="jasem" ></SubMenuContainer>
                                             </Navbar.Services>
                                             <Navbar.Arrow />
                                         </Navbar.Links>

@@ -31,7 +31,9 @@ export const NavMenu = styled.ul`
 `
 
 export const NavItems = styled.li`
-
+ &:hover .jasem{
+        display: flex
+    }
 `
 
 export const NavLinks = styled.a`
@@ -46,6 +48,7 @@ export const NavLinks = styled.a`
     }
 
     position: relative;
+   
     
     
 `
@@ -55,10 +58,13 @@ position: absolute;
  top: 5px ;
  right: 5px;
 
+
 `
 
 export const Services = styled.span`
-position: relative
+position: relative;
+background-color: yellow;
+
 
 `
 
@@ -79,5 +85,6 @@ margin: 0 20px;
 justify-self: flex-end;
 padding: 10px 15px;
 
+    
 `
 

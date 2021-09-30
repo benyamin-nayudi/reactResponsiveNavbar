@@ -6,14 +6,14 @@ position: absolute;
 background-color: gray;
 padding: 0 ;
 margin: 0;
-top: 51px;
+top: 40px;
 width: 180px;
 
 flex-direction: column;
 justify-content: center;
+display: none;
 
 
-display:${props => props.jasem ? "flex" : "none"}
 
 `
 export const SubMenuItems = styled.li`
